@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Portfolio of Hemanth Kumar P U – Web Designer and Full Stack Developer specializing in HTML, CSS, JavaScript, and Python.">
+    <title>Hemanth Kumar P U | Web Designer & Developer</title>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Inter:wght@300;400;500;600;700&family=Playfair+Display:wght@700;800;900&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- ==================== NAVBAR ==================== -->
+    <nav class="navbar" id="navbar">
+        <a href="#" class="navbar__logo">PORTFOLIO</a>
+        <div class="navbar__links">
+            <a href="#home" class="navbar__link">HOME</a>
+            <a href="#about" class="navbar__link">ABOUT</a>
+            <a href="#resume" class="navbar__link">RESUME</a>
+            <div class="navbar__socials">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" class="navbar__social-icon"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub" class="navbar__social-icon"><i class="fab fa-github"></i></a>
+                <a href="#" aria-label="Share" class="navbar__social-icon"><i class="fas fa-share-alt"></i></a>
+            </div>
+        </div>
+        <button class="navbar__toggle" id="navToggle" aria-label="Toggle navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </button>
+    </nav>
+
+    <!-- ==================== HERO SECTION ==================== -->
+    <section class="hero" id="home">
+        <div class="hero__overlay"></div>
+        <div class="hero__bg-image"></div>
+
+        <!-- Animated scan lines -->
+        <div class="hero__scanlines"></div>
+
+        <div class="hero__content">
+            <p class="hero__greeting">HI, I'M HEMANTH KUMAR P U</p>
+
+            <h1 class="hero__title">
+                <span class="hero__title-line">WEB DESIGNER AND</span>
+                <span class="hero__title-line">DEVELOPER</span>
+            </h1>
+
+            <p class="hero__description">
+                Results-driven Full Stack Developer mastering MCA, with hands-on experience in designing, developing, and deploying scalable web applications. Skilled in JavaScript, TypeScript, React.js, 
+                Node.js, Express.js, and MongoDB. Passionate about clean code, responsive design, and building efficient solutions. Proficient with Git, Restful APIs and Agile methodologies.  
+                A team player with an eye for detail, committed to writing maintainable code and delivering transformative user experiences.
+            </p>
+        </div>
+
+        <div class="hero__bottom">
+            <a href="#about" class="hero__scroll">
+                <i class="fas fa-arrow-down"></i>
+                <span>SCROLL DOWN</span>
+            </a>
+            <a href="#" class="hero__cta">DOWNLOAD CV</a>
+        </div>
+
+        <!-- Decorative curved bottom -->
+        <div class="hero__curve">
+            <svg viewBox="0 0 1440 120" preserveAspectRatio="none">
+                <path d="M0,120 C480,0 960,0 1440,120 L1440,120 L0,120 Z" fill="#ffffff"/>
+            </svg>
+        </div>
+    </section>
+
+    <!-- ==================== ABOUT SECTION ==================== -->
+    <section class="about" id="about">
+        <div class="about__container">
+            <div class="about__text">
+                <h2 class="about__heading">WHO AM I?</h2>
+                <p class="about__bio">
+                    I'm <strong>Hemanth Kumar P U</strong><br>
+                    I'm a MCA Student and an aspiring Full Stack Developer. I enjoy 
+                    building responsive and user friendly web applications using 
+                    HTML, CSS, JavaScript, and Python (Flask). I have worked on 
+                    projects like an e-commerce website with user authentication, 
+                    cart functionality and database integration. I am also interested 
+                    in Data Structures and Algorithms and continuously improving 
+                    my problem-solving skills. My goal is to become a professional 
+                    developer and contribute to real-world projects that make an 
+                    impact.
+                </p>
+            </div>
+            <div class="about__image-wrapper">
+                <div class="about__image-frame">
+                    <img src="assets/about-photo.png" alt="Hemanth Kumar P U working at desk" class="about__image" loading="lazy">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== EDUCATION SECTION ==================== -->
+    <section class="education" id="resume">
+        <div class="education__container">
+            <h2 class="education__heading">EDUCATION</h2>
+
+            <div class="education__timeline">
+                <!-- Card 1 -->
+                <div class="education__card">
+                    <div class="education__card-header">
+                        <h3 class="education__institution">Dayananda Sagar College Of Arts, Science and Commerce, Bengaluru</h3>
+                        <span class="education__status education__status--pursuing">Pursuing</span>
+                    </div>
+                    <p class="education__degree">Master Of Computer Applications (MCA)</p>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="education__card">
+                    <div class="education__card-header">
+                        <h3 class="education__institution">Vivekananda College Of Arts, Science and Commerce, Puttur</h3>
+                        <span class="education__status">2022-2025</span>
+                    </div>
+                    <p class="education__degree">Bachelor Of Science (BSc) in Mathematics and Computer Science</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==================== FOOTER ==================== -->
+    <footer class="footer">
+        <div class="footer__container">
+            <p class="footer__text">&copy; 2026 Hemanth Kumar P U. All rights reserved.</p>
+            <div class="footer__socials">
+                <a href="https://linkedin.com" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com" target="_blank" rel="noopener noreferrer" aria-label="GitHub"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
